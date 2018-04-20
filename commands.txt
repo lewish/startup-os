@@ -12,7 +12,7 @@ bazel run @bazel_deps//:parse -- format-deps --overwrite --deps `pwd`/dependenci
 # add-dep command adds dependency to dependencies.yaml
 # it does NOT regenerate build files tree (third_party/maven/), so do it manually
 # <maven_artifact> i.e. com.scireum:sirius-kernel:8.0.1
-bazel run @bazel_deps//:parse -- add-dep --deps `pwd`/dependencies.yaml --lang java <maven_artifact>
+bazel run @bazel_deps//:parse -- add-dep --deps `pwd`/dependencies.yaml --lang java com.google.dagger:dagger:2.15
 
 # WARNING: any comments you had in dependencies.yaml
 # would be destroyed by add-dep or format-deps, see:

@@ -42,6 +42,7 @@ def list_dependencies():
 # - com.google.http-client:google-http-client-gson:1.23.0 wanted version 2.1
 # - com.google.protobuf:protobuf-java-util:3.5.1 wanted version 2.7
     {"artifact": "com.google.code.gson:gson:2.8.2", "lang": "java", "sha1": "3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf", "repository": "https://repo.maven.apache.org/maven2/", "name": "com_google_code_gson_gson", "actual": "@com_google_code_gson_gson//jar", "bind": "jar/com/google/code/gson/gson"},
+    {"artifact": "com.google.dagger:dagger:2.15", "lang": "java", "sha1": "13cc1f509deda05c1fe5a315519d7cb743b8333b", "repository": "https://repo.maven.apache.org/maven2/", "name": "com_google_dagger_dagger", "actual": "@com_google_dagger_dagger//jar", "bind": "jar/com/google/dagger/dagger"},
 # duplicates in com.google.errorprone:error_prone_annotations promoted to 2.1.3
 # - com.google.guava:guava:24.0-android wanted version 2.1.3
 # - io.grpc:grpc-core:1.9.0 wanted version 2.1.2
@@ -93,6 +94,7 @@ def list_dependencies():
     {"artifact": "io.opencensus:opencensus-api:0.10.0", "lang": "java", "sha1": "46bcf07e0bd835022ccd531d99c3eb813382d4d8", "repository": "https://repo.maven.apache.org/maven2/", "name": "io_opencensus_opencensus_api", "actual": "@io_opencensus_opencensus_api//jar", "bind": "jar/io/opencensus/opencensus_api"},
     {"artifact": "io.opencensus:opencensus-contrib-grpc-metrics:0.10.0", "lang": "java", "sha1": "e47f918dc577b6316f57a884c500b13a98d3c11b", "repository": "https://repo.maven.apache.org/maven2/", "name": "io_opencensus_opencensus_contrib_grpc_metrics", "actual": "@io_opencensus_opencensus_contrib_grpc_metrics//jar", "bind": "jar/io/opencensus/opencensus_contrib_grpc_metrics"},
     {"artifact": "javax.annotation:javax.annotation-api:1.3.2", "lang": "java", "sha1": "934c04d3cfef185a8008e7bf34331b79730a9d43", "repository": "https://repo.maven.apache.org/maven2/", "name": "javax_annotation_javax_annotation_api", "actual": "@javax_annotation_javax_annotation_api//jar", "bind": "jar/javax/annotation/javax_annotation_api"},
+    {"artifact": "javax.inject:javax.inject:1", "lang": "java", "sha1": "6975da39a7040257bd51d21a231b76c915872d38", "repository": "https://repo.maven.apache.org/maven2/", "name": "javax_inject_javax_inject", "actual": "@javax_inject_javax_inject//jar", "bind": "jar/javax/inject/javax_inject"},
     {"artifact": "joda-time:joda-time:2.9.2", "lang": "java", "sha1": "36d6e77a419cb455e6fd5909f6f96b168e21e9d0", "repository": "https://repo.maven.apache.org/maven2/", "name": "joda_time_joda_time", "actual": "@joda_time_joda_time//jar", "bind": "jar/joda_time/joda_time"},
     {"artifact": "junit:junit:4.12", "lang": "java", "sha1": "2973d150c0dc1fefe998f834810d68f278ea58ec", "repository": "https://repo.maven.apache.org/maven2/", "name": "junit_junit", "actual": "@junit_junit//jar", "bind": "jar/junit/junit"},
     {"artifact": "net.bytebuddy:byte-buddy-agent:1.7.9", "lang": "java", "sha1": "a6c65f9da7f467ee1f02ff2841ffd3155aee2fc9", "repository": "https://repo.maven.apache.org/maven2/", "name": "net_bytebuddy_byte_buddy_agent", "actual": "@net_bytebuddy_byte_buddy_agent//jar", "bind": "jar/net/bytebuddy/byte_buddy_agent"},

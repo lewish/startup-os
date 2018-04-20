@@ -26,6 +26,11 @@ dependencies:
       lang: java
       version: "2.8.2"
   
+  com.google.dagger:
+    dagger:
+      lang: java
+      version: "2.15"
+  
   com.google.firebase:
     firebase-admin:
       lang: java
