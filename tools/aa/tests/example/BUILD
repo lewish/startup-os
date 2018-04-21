@@ -1,10 +1,11 @@
 package(default_visibility = ["//visibility:public"])
 
+
 java_library(
     name = "coffee_lib",
     srcs = glob(["**/*.java"]),
     deps = [
-        "//third_party/maven/com/google/dagger:dagger",
+        "//common:dagger_with_annotation_processor",
         "//third_party/maven/javax/inject:javax_inject"
     ],
 )
