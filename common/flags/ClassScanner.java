@@ -217,12 +217,7 @@ public class ClassScanner {
             "Cannot check if flag '%s' is of list type. It has %s inner types instead of 1.",
                 field,
                 innerTypes.length);
-      }
-      String type = innerTypes[0].getTypeName();
-      if (!type.startsWith("java.util.List")) {
-        log.atWarning().log("'%s' isn't a List", type);
-        return false;
-      } else {
+      } else if (innerTypes[0].getTypeName().startsWith("java.util.List")) {
         return true;
       }
     } else {
